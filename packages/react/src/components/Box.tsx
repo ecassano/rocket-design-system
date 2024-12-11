@@ -16,3 +16,5 @@ interface BoxProps extends ComponentProps<typeof Box> {
 
 export { Box }
 export type { BoxProps }
+
+Box.displayName = 'Box'
