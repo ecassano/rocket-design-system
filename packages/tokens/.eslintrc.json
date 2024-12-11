@@ -1,3 +1,4 @@
 {
-  "extends": "@ignite-ui/eslint-config"
+  "root": true,
+  "extends": "@cass-ui/eslint-config"
 }
