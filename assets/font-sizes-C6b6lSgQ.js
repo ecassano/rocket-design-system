@@ -1,0 +1,4 @@
+import{j as t}from"./index-Doswrxqk.js";import{useMDXComponents as e}from"./index-BEqo9vi-.js";import{ag as r}from"./chunk-NUUEMKO5-BVqKAkKt.js";import{T as i}from"./TokensGrid-B63oy_2n.js";import{f as m}from"./index-v4bgSY9J.js";import"./index-BzhKaBtb.js";import"./_commonjsHelpers-CqkleIqs.js";import"./index-DCY-Pets.js";import"./iframe-BWj7VM5L.js";import"../sb-preview/runtime.js";import"./index-CLqDXS6w.js";import"./index-CHGET4sZ.js";import"./index-DrFu-skq.js";import"./client-DXb9yDUy.js";function n(o){const s={h1:"h1",p:"p",...e(),...o.components};return t.jsxs(t.Fragment,{children:[t.jsxs(s.p,{children:[";",t.jsx(r,{title:"Tokens/Font-Sizes"})]}),`
+`,t.jsx(s.h1,{id:"font-sizes",children:"Font Sizes"}),`
+`,t.jsx(s.p,{children:"Esses são os spaces utilizados no Cass UI"}),`
+`,t.jsx(i,{tokens:m,hasRemValue:!0})]})}function D(o={}){const{wrapper:s}={...e(),...o.components};return s?t.jsx(s,{...o,children:t.jsx(n,{...o})}):n(o)}export{D as default};

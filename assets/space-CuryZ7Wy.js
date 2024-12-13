@@ -1,0 +1,4 @@
+import{j as t}from"./index-Doswrxqk.js";import{useMDXComponents as n}from"./index-BEqo9vi-.js";import{ag as r}from"./chunk-NUUEMKO5-BVqKAkKt.js";import{T as i}from"./TokensGrid-B63oy_2n.js";import{s as m}from"./index-v4bgSY9J.js";import"./index-BzhKaBtb.js";import"./_commonjsHelpers-CqkleIqs.js";import"./index-DCY-Pets.js";import"./iframe-BWj7VM5L.js";import"../sb-preview/runtime.js";import"./index-CLqDXS6w.js";import"./index-CHGET4sZ.js";import"./index-DrFu-skq.js";import"./client-DXb9yDUy.js";function e(o){const s={h1:"h1",p:"p",...n(),...o.components};return t.jsxs(t.Fragment,{children:[t.jsxs(s.p,{children:[";",t.jsx(r,{title:"Tokens/Space"})]}),`
+`,t.jsx(s.h1,{id:"space",children:"Space"}),`
+`,t.jsx(s.p,{children:"Esses são os spaces utilizados no Cass UI"}),`
+`,t.jsx(i,{tokens:m,hasRemValue:!0})]})}function T(o={}){const{wrapper:s}={...n(),...o.components};return s?t.jsx(s,{...o,children:t.jsx(e,{...o})}):e(o)}export{T as default};

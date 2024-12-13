@@ -1,0 +1,3 @@
+import{j as t}from"./index-Doswrxqk.js";import{useMDXComponents as e}from"./index-BEqo9vi-.js";import{ag as s}from"./chunk-NUUEMKO5-BVqKAkKt.js";import"./index-BzhKaBtb.js";import"./_commonjsHelpers-CqkleIqs.js";import"./index-DCY-Pets.js";import"./iframe-BWj7VM5L.js";import"../sb-preview/runtime.js";import"./index-CLqDXS6w.js";import"./index-CHGET4sZ.js";import"./index-DrFu-skq.js";import"./client-DXb9yDUy.js";function r(o){const n={h1:"h1",p:"p",...e(),...o.components};return t.jsxs(t.Fragment,{children:[t.jsx(s,{title:"Home"}),`
+`,t.jsx(n.h1,{id:"cass-ui",children:"Cass UI"}),`
+`,t.jsx(n.p,{children:"Design System do Cass"})]})}function C(o={}){const{wrapper:n}={...e(),...o.components};return n?t.jsx(n,{...o,children:t.jsx(r,{...o})}):r(o)}export{C as default};

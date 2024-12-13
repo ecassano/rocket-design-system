@@ -1,0 +1,4 @@
+import{j as o}from"./index-Doswrxqk.js";import{useMDXComponents as n}from"./index-BEqo9vi-.js";import{ag as s}from"./chunk-NUUEMKO5-BVqKAkKt.js";import{T as e}from"./TokensGrid-B63oy_2n.js";import{r as m}from"./index-v4bgSY9J.js";import"./index-BzhKaBtb.js";import"./_commonjsHelpers-CqkleIqs.js";import"./index-DCY-Pets.js";import"./iframe-BWj7VM5L.js";import"../sb-preview/runtime.js";import"./index-CLqDXS6w.js";import"./index-CHGET4sZ.js";import"./index-DrFu-skq.js";import"./client-DXb9yDUy.js";function r(t){const i={h1:"h1",p:"p",...n(),...t.components};return o.jsxs(o.Fragment,{children:[o.jsxs(i.p,{children:[";",o.jsx(s,{title:"Tokens/Radii"})]}),`
+`,o.jsx(i.h1,{id:"radii",children:"Radii"}),`
+`,o.jsx(i.p,{children:"Esses são os radiis utilizados no Cass UI"}),`
+`,o.jsx(e,{tokens:m})]})}function R(t={}){const{wrapper:i}={...n(),...t.components};return i?o.jsx(i,{...t,children:o.jsx(r,{...t})}):r(t)}export{R as default};

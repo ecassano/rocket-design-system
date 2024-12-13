@@ -1,0 +1,4 @@
+import{j as t}from"./index-Doswrxqk.js";import{useMDXComponents as e}from"./index-BEqo9vi-.js";import{ag as i}from"./chunk-NUUEMKO5-BVqKAkKt.js";import{T as r}from"./TokensGrid-B63oy_2n.js";import{a as m}from"./index-v4bgSY9J.js";import"./index-BzhKaBtb.js";import"./_commonjsHelpers-CqkleIqs.js";import"./index-DCY-Pets.js";import"./iframe-BWj7VM5L.js";import"../sb-preview/runtime.js";import"./index-CLqDXS6w.js";import"./index-CHGET4sZ.js";import"./index-DrFu-skq.js";import"./client-DXb9yDUy.js";function s(o){const n={h1:"h1",p:"p",...e(),...o.components};return t.jsxs(t.Fragment,{children:[t.jsxs(n.p,{children:[";",t.jsx(i,{title:"Tokens/Font Weights"})]}),`
+`,t.jsx(n.h1,{id:"font-weights",children:"Font Weights"}),`
+`,t.jsx(n.p,{children:"Esses são os font-weights utilizados no Cass UI"}),`
+`,t.jsx(r,{tokens:m})]})}function w(o={}){const{wrapper:n}={...e(),...o.components};return n?t.jsx(n,{...o,children:t.jsx(s,{...o})}):s(o)}export{w as default};

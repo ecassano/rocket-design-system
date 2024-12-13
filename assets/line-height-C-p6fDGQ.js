@@ -1,0 +1,4 @@
+import{j as t}from"./index-Doswrxqk.js";import{useMDXComponents as s}from"./index-BEqo9vi-.js";import{ag as e}from"./chunk-NUUEMKO5-BVqKAkKt.js";import{T as r}from"./TokensGrid-B63oy_2n.js";import{l as m}from"./index-v4bgSY9J.js";import"./index-BzhKaBtb.js";import"./_commonjsHelpers-CqkleIqs.js";import"./index-DCY-Pets.js";import"./iframe-BWj7VM5L.js";import"../sb-preview/runtime.js";import"./index-CLqDXS6w.js";import"./index-CHGET4sZ.js";import"./index-DrFu-skq.js";import"./client-DXb9yDUy.js";function i(o){const n={h1:"h1",p:"p",...s(),...o.components};return t.jsxs(t.Fragment,{children:[t.jsxs(n.p,{children:[";",t.jsx(e,{title:"Tokens/Line Heights"})]}),`
+`,t.jsx(n.h1,{id:"line-heights",children:"Line Heights"}),`
+`,t.jsx(n.p,{children:"Essas são os line-heights utilizados no Cass UI"}),`
+`,t.jsx(r,{tokens:m})]})}function D(o={}){const{wrapper:n}={...s(),...o.components};return n?t.jsx(n,{...o,children:t.jsx(i,{...o})}):i(o)}export{D as default};
