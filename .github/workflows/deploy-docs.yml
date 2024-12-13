@@ -15,7 +15,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 16 # Use the Node.js version matching your local environment
           cache: 'npm'
           cache-dependency-path: '**/package-lock.json'
 
@@ -25,13 +25,14 @@ jobs:
       - name: Clean Turbo Cache
         run: npx turbo clean
 
-      - run: npm run build
+      - name: Build Docs Only
+        run: npx turbo run build --filter=@cass-ui/docs --force
         env:
           TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           TURBO_TEAM: rocketseat
 
-      - name: Deploy storybook
+      - name: Deploy Storybook
         working-directory: ./packages/docs
         run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
         env:
-          GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
