@@ -12,13 +12,6 @@
       "dependsOn": [
         "^build"
       ]
-    },
-    "deploy-storybook": {
-      "outputs": [],
-      "dependsOn": [
-        "build"
-      ],
-      "cache": false
     }
   }
 }
