@@ -19,7 +19,11 @@ jobs:
           cache: 'npm'
           cache-dependency-path: '**/package-lock.json'
 
-      - run: npm ci
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Clean Turbo Cache
+        run: npx turbo clean
 
       - run: npm run build
         env:
